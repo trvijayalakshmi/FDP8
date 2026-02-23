@@ -89,11 +89,11 @@ if uploaded_file is not None:
     
     with col1:
         st.subheader("Original Image")
-        st.image(image, use_column_width=True)
+        st.image(image, width=True)
     
     with col2:
         st.subheader("Smoothed Image")
-        st.image(smoothed_image, use_column_width=True)
+        st.image(smoothed_image, width=True)
     
     # Download button
     buf = io.BytesIO()
